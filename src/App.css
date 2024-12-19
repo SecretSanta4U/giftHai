@@ -1,0 +1,107 @@
+/* General App Styles */
+.App {
+  text-align: center;
+  background: linear-gradient(to bottom, #ff9a9e, #fad0c4); /* Festive gradient */
+  height: 100vh;
+  color: #1b262c;
+  font-family: "Poppins", sans-serif; /* Modern and clean font */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  width: 90%;
+  max-width: 500px;
+}
+
+/* Header and Text */
+h1 {
+  color: #d72638;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  color: #3d3d3d;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Blockquote for Riddle */
+blockquote {
+  font-style: italic;
+  margin: 20px auto;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px 20px;
+  border-left: 5px solid #f77f00;
+  border-radius: 5px;
+  color: #1b262c;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Field */
+input {
+  padding: 12px;
+  border: 2px solid #38a3a5;
+  border-radius: 8px;
+  margin: 15px 0;
+  font-size: 1rem;
+  width: 80%;
+  max-width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+button {
+  padding: 12px 24px;
+  background-color: #38a3a5;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #22577a;
+  transform: translateY(-3px);
+}
+
+button:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}
+
+/* Error Message */
+.error {
+  color: #d72638;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Gift Message */
+.gift-message {
+  margin-top: 20px;
+}
+
+.gift-message p {
+  font-size: 1.2rem;
+  color: #3a3a3a;
+}
+
+.gift-message button {
+  background-color: #f77f00;
+  color: white;
+}
+
+.gift-message button:hover {
+  background-color: #d65a00;
+}
